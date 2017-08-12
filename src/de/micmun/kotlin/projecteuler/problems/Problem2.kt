@@ -19,7 +19,7 @@ package de.micmun.kotlin.projecteuler.problems
 
 /**
  * Problem 2: By considering the terms in the Fibonacci sequence whose values
- * do not exceed four million, find the sum of the even-valued terms..
+ * do not exceed four million, find the sum of the even-valued terms.
  *
  * @author MicMun
  * @version 1.0, 12.08.17
@@ -61,6 +61,8 @@ class Problem2(val maxNumber: Int) {
      * @return name of the problem class.
      */
     override fun toString(): String {
-        return "Problem2"
+        return "Problem2 - By considering the terms in the Fibonacci sequence " +
+                "whose values do not exceed four million, find the sum of the" +
+                " even-valued terms:"
     }
 }

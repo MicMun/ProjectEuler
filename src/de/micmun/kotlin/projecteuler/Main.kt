@@ -30,19 +30,19 @@ import de.micmun.kotlin.projecteuler.problems.Problem4
 fun main(args: Array<String>) {
     // Problem 1: Find the sum of all the multiples of 3 or 5 below 1000.
     val p1 = Problem1(1000)
-    println("$p1 : ${p1.getLoesung()}")
+    println("$p1 ${p1.getLoesung()}")
 
     // Problem 2: By considering the terms in the Fibonacci sequence whose
     // values do not exceed four million, find the sum of the even-valued terms.
     val p2 = Problem2(4000000)
-    println("$p2 : ${p2.getLoesung()}")
+    println("$p2 ${p2.getLoesung()}")
 
     // Problem 3: What is the largest prime factor of the number 600851475143.
     val p3 = Problem3(600851475143)
-    println("$p3 : ${p3.getLoesung()}")
+    println("$p3 ${p3.getLoesung()}")
 
     // Problem 4: Find the largest palindrome made from the product of two
     // 3-digit numbers.
     val p4 = Problem4()
-    println("$p4 : ${p4.getLoesung()}")
+    println("$p4 ${p4.getLoesung()}")
 }

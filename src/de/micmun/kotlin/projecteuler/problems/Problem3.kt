@@ -65,6 +65,7 @@ class Problem3(val number: Long) {
      * @return name of the problem class.
      */
     override fun toString(): String {
-        return "Problem3"
+        return "Problem3 - What is the largest prime factor of the number " +
+                "600851475143:"
     }
 }

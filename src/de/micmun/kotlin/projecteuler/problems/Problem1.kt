@@ -43,6 +43,7 @@ class Problem1(val number: Int) {
      * @return name of the problem class.
      */
     override fun toString(): String {
-        return "Problem1"
+        return "Problem1 - Find the sum of all the multiples of 3 or 5 below " +
+                "1000:"
     }
 }

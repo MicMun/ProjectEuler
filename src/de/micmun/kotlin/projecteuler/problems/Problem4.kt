@@ -72,6 +72,7 @@ class Problem4 {
      * @return name of the problem class.
      */
     override fun toString(): String {
-        return "Problem4"
+        return "Problem4 - Find the largest palindrome made from the product " +
+                "of two 3-digit:"
     }
 }
