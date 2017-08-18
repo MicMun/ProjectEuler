@@ -15,10 +15,7 @@
 
 package de.micmun.kotlin.projecteuler
 
-import de.micmun.kotlin.projecteuler.problems.Problem1
-import de.micmun.kotlin.projecteuler.problems.Problem2
-import de.micmun.kotlin.projecteuler.problems.Problem3
-import de.micmun.kotlin.projecteuler.problems.Problem4
+import de.micmun.kotlin.projecteuler.problems.*
 
 /**
  * Main application for ProjectEuler.
@@ -45,4 +42,18 @@ fun main(args: Array<String>) {
     // 3-digit numbers.
     val p4 = Problem4()
     println("$p4 ${p4.getLoesung()}")
+
+    // Problem 5: What is the smallest positive number that is evenly divisible
+    // by all of the numbers from 1 to 20.
+    val p5 = Problem5(20)
+    println("$p5 ${p5.getLoesung()}")
+
+    // Problem 6: Find the difference between the sum of the squares of the
+    // first one hundred natural numbers and the square of the sum.
+    val p6 = Problem6(100)
+    println("$p6 ${p6.getLoesung()}")
+
+    // Problem 7: What is the 10 001st prime number?
+    val p7 = Problem7(10001)
+    println("$p7 ${p7.getLoesung()}")
 }
