@@ -24,7 +24,7 @@ package de.micmun.kotlin.projecteuler.problems
  * @version 1.0, 12.08.17
  */
 
-class Problem3(val number: Long) {
+class Problem3(private val number: Long) {
     /**
      * Returns the largest prime factor of the number 600851475143.
      *
@@ -33,7 +33,7 @@ class Problem3(val number: Long) {
     fun getLoesung(): Long {
         var n: Double = number.toDouble()
 
-        var d: Double = 3.0
+        var d = 3.0
         var rt: Double
 
         if (n < 2)

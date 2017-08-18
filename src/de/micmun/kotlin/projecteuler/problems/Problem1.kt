@@ -20,9 +20,9 @@ package de.micmun.kotlin.projecteuler.problems
  * @version 1.0, 12.08.17
  */
 
-class Problem1(val number: Int) {
-    val q1: Int = 3
-    val q2: Int = 5
+class Problem1(private val number: Int) {
+    private val q1: Int = 3
+    private val q2: Int = 5
 
     /**
      * Returns the sum of the numbers which are dividable through q1 and q2
